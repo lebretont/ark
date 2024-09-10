@@ -11,7 +11,7 @@ export const ComponentUnderTest = () => (
       onClick={() =>
         toaster.create({
           title: 'Title',
-          description: 'Description',
+          description: <span>Description</span>,
           type: 'info',
         })
       }
